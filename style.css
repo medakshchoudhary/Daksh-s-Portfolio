@@ -1,0 +1,62 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family: "gotham";
+    box-sizing : border-box;
+}
+
+html,body{
+    width : 100%;
+    height : 100%;
+}
+
+#nav{
+    width: 100%;
+    height: 18vh;
+    position: fixed;
+    z-index: 100;
+    transition: all ease 0.1s;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    
+}
+#intro{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+#intro #content{
+    padding-left: 12vh;
+    margin-top: 20vh;
+}
+#intro #pic{
+    margin-top: 10vh;
+    padding-right: 10vh;
+}
+#intro #pic img{
+    height: 70vh;
+    border-radius: 4%;
+    z-index: 101;
+}
+#intro #content h1{
+    font-size: 9vh;
+    white-space: nowrap;
+}
+#intro #content p{
+    font-size: 3.5vh;
+    margin-top: 7vh;
+    width: 60%;
+}
+
+#page2{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
